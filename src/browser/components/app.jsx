@@ -1,9 +1,14 @@
-var React = require('react');
+var React = require('react'),
+    Header = require('./header.jsx'),
+    Navigation = require('./navigation.jsx');
 
 module.exports = React.createClass({
     render: function() {
         return (
-            <div>Hello world</div>
+            <div>
+                <Navigation />
+                <Header />
+            </div>
         );
     }
 });
