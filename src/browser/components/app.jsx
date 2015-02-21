@@ -1,6 +1,8 @@
 var React = require('react'),
     Header = require('./header.jsx'),
-    Navigation = require('./navigation.jsx');
+    Navigation = require('./navigation.jsx'),
+    Content = require('./content.jsx'),
+    Footer = require('./footer.jsx');
 
 module.exports = React.createClass({
     render: function() {
@@ -8,6 +10,8 @@ module.exports = React.createClass({
             <div>
                 <Navigation />
                 <Header />
+                <Content />
+                <Footer />
             </div>
         );
     }
