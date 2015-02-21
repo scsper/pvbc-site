@@ -1,0 +1,19 @@
+{
+  "name": "pvbc-site",
+  "version": "0.0.0",
+  "description": "Public site for Park Victoria Baptist Church",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scsper/pvbc-site.git"
+  },
+  "author": "Scott Sperling, Jessica Sperling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scsper/pvbc-site/issues"
+  },
+  "homepage": "https://github.com/scsper/pvbc-site"
+}
