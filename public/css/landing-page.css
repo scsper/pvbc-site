@@ -21,8 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
 }
 
 ul{
@@ -34,6 +34,36 @@ ul{
     font-size: 14px;
 }
 
+.menu-dropdown{
+ font-size: 10px;
+ padding: 0 4px;
+}
+
+.topnav li .submenu {
+    display:none;
+    background-color: #f8f8f8;
+    border: solid 1px #e7e7e7;
+    border-top:none;
+    padding:0 10px 10px;
+}
+
+.topnav li:hover .submenu {
+    position:absolute;
+    display:block;
+}
+
+.submenu li{
+    padding:.2em;
+}
+
+.submenu a {
+    color:#dea466;
+}
+
+.submenu a:hover{
+    text-decoration:none;
+    color:#c1c460;
+}
 .lead {
     font-size: 18px;
     font-weight: 400;
