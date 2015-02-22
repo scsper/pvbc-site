@@ -1,18 +1,17 @@
 var React = require('react'),
-    Header = require('./header.jsx'),
-    Navigation = require('./navigation.jsx'),
-    Content = require('./content.jsx'),
-    Footer = require('./footer.jsx');
+    Router = require('react-router'),
+    RouteHandler = Router.RouteHandler,
+    Header = require('./home/header.jsx'),
+    Navigation = require('./navigation.jsx');
 
 module.exports = React.createClass({
     render: function() {
         return (
             <div>
                 <Navigation />
-                <Header />
-                <Content />
-                <Footer />
+                <RouteHandler />
             </div>
+
         );
     }
 });
