@@ -19,6 +19,6 @@ var routes = (
     </Route>
 );
 
-module.exports = Router.run(routes, function(Handler) {
+module.exports = Router.run(routes, Router.HistoryLocation, function(Handler) {
     React.render(Handler(null), document.getElementById('container'));
 });
