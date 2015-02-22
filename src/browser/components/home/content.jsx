@@ -7,8 +7,8 @@ module.exports = React.createClass({
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 col-sm-6">
-                            <h2 className="section-heading">We meet Sundays at 10:30am.</h2>
-                            <p className="lead">875 South Park Victoria Drive, <br />Milpitas, CA 95035</p>
+                            <h2 className="new-to-park-victoria">New to Park Victoria?</h2>
+                            <p>All are welcome to attend our Sunday services, which are designed to reflect biblical principles such as prayer, lifting up our voices to God in song, preaching and teaching the Bible, and celebrating communion. We hope you’ll join us!</p>
                         </div>
                         <div className="col-lg-5 col-lg-offset-2 col-sm-6">
                             <img className="img-responsive map" src="img/Church-Map.png" alt="" />
