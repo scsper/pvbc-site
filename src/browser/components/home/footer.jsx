@@ -18,7 +18,7 @@ module.exports = React.createClass({
                                 </li>
                                 <li className="col-sm-4">
                                     <h3>Location</h3>
-                                    <p className="text-muted service">875 South Park Victoria Drive,<br/>Milpitas CA 95035</p>
+                                    <p className="text-muted service">875 South Park Victoria Drive,<br/>Milpitas, CA 95035</p>
                                 </li>
                                 <li className="col-sm-4">
                                     <h3>Contact Us</h3>
