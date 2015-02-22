@@ -11,11 +11,11 @@ var React = require('react'),
 
 var routes = (
     <Route handler={App}>
-        <DefaultRoute handler={Home} />
         <Route name="about" handler={About} />
         <Route name="visit" handler={Visit} />
         <Route name="ministries" handler={Ministries} />
         <Route name="staff" handler={Staff} />
+        <DefaultRoute handler={Home} />
     </Route>
 );
 
