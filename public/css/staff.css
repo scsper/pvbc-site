@@ -1,0 +1,24 @@
+.staff-list-item {
+    margin-top: 10px;
+}
+
+img.staff-img {
+    vertical-align: none;
+    display: inline-block;
+    max-width: 30%;
+}
+
+.staff-text {
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px 15px;
+    max-width: 70%;
+}
+
+.staff-name {
+    margin: 0;
+}
+
+.staff-bio {
+    margin-top: 10px;
+}
