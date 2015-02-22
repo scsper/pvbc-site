@@ -18,14 +18,16 @@ module.exports = React.createClass({
                                 </li>
                                 <li className="col-sm-4">
                                     <h3>Location</h3>
-                                    <p className="text-muted service">875 South Park Victoria Drive,<br/>Milpitas, CA 95035</p>
+                                    <p className="text-muted service"><a className="text-muted" target="_blank" href="https://www.google.com/maps/place/875+S+Park+Victoria+Dr,+Milpitas,+CA+95035/@37.4231411,-121.8777034,17z/data=!3m1!4b1!4m2!3m1!1s0x808fceea72074857:0x7d0f345d69d9466e">875 South Park Victoria Drive,<br/>Milpitas, CA 95035</a></p>
                                 </li>
                                 <li className="col-sm-4">
                                     <h3>Contact Us</h3>
                                     <ul>
                                         <li className="text-muted service"> (408) 263-9000</li>
                                         <li className="text-muted service"> info@parkvictoria.org </li>
-                                        <li className="text-muted service"> (fb) (twitter)</li>
+                                        <li className="text-muted service">
+                                            <a target="_blank" href="https://www.facebook.com/pvbcmilpitas"><img src="img/facebook.png" height="20" width="20"></img></a>
+                                        </li>
                                     </ul>
                                 </li>
                             </ul>
