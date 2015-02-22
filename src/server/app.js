@@ -26,8 +26,4 @@ app.get('/ministries', function(req, res) {
     res.render('index');
 });
 
-app.get('/visit', function(req, res) {
-    res.render('index');
-});
-
 module.exports = app;
