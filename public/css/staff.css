@@ -1,5 +1,5 @@
 .staff-list-item {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 img.staff-img {
@@ -15,10 +15,17 @@ img.staff-img {
     max-width: 70%;
 }
 
+.staff-title {
+    margin: 0;
+    color: #777;
+}
+
 .staff-name {
     margin: 0;
+    text-transform: uppercase;
 }
 
 .staff-bio {
     margin-top: 10px;
+    font-weight: 400;
 }
