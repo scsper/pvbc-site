@@ -22,7 +22,23 @@ app.get('/about', function(req, res) {
     res.render('index');
 });
 
-app.get('/ministries', function(req, res) {
+app.get('/arts', function(req, res) {
+    res.render('index');
+});
+
+app.get('/spanish', function(req, res) {
+    res.render('index');
+});
+
+app.get('/community', function(req, res) {
+    res.render('index');
+});
+
+app.get('/outreach', function(req, res) {
+    res.render('index');
+});
+
+app.get('/prayer', function(req, res) {
     res.render('index');
 });
 
