@@ -1,4 +1,6 @@
-var React = require('react');
+var React = require('react'),
+    Router = require('react-router'),
+    Link = Router.Link;
 
 module.exports = React.createClass({
     render: function() {
@@ -17,16 +19,16 @@ module.exports = React.createClass({
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right">
                             <li>
-                                <a href="#about">Visit</a>
+                                <Link to="visit">Visit</Link>
                             </li>
                             <li>
-                                <a href="#about">About</a>
+                                <Link to="about">About</Link>
                             </li>
                             <li>
-                                <a href="#services">Ministries</a>
+                                <Link to="ministries">Ministries</Link>
                             </li>
                             <li>
-                                <a href="#contact">Staff</a>
+                                <Link to="staff">Staff</Link>
                             </li>
                         </ul>
                     </div>

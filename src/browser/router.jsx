@@ -3,11 +3,19 @@ var React = require('react'),
     Route = Router,
     DefaultRoute = Router.DefaultRoute,
     Home = require('./components/home/index.jsx'),
+    Visit = require('./components/visit/index.jsx'),
+    About = require('./components/about/index.jsx'),
+    Ministries = require('./components/ministries/index.jsx'),
+    Staff = require('./components/staff/index.jsx'),
     App = require('./components/app.jsx');
 
 var routes = (
     <Route handler={App}>
         <DefaultRoute handler={Home} />
+        <Route name="about" handler={About} />
+        <Route name="visit" handler={Visit} />
+        <Route name="ministries" handler={Ministries} />
+        <Route name="staff" handler={Staff} />
     </Route>
 );
 
