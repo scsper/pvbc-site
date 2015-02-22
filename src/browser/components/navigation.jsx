@@ -22,8 +22,15 @@ module.exports = React.createClass({
                                 <Link to="about">About</Link>
                             </li>
                             <li>
-                                <Link to="ministries">Ministries</Link>
-                            </li>
+                                <a>Ministries<span className="glyphicon glyphicon-chevron-down menu-dropdown"></span></a>
+                                <ul className="submenu">
+                                    <li><Link to="community">Community</Link></li>
+                                    <li><Link to="outreach">Outreach</Link></li>
+                                    <li><Link to="prayer">Prayer</Link></li>
+                                    <li><Link to="arts">Arts</Link></li>
+                                    <li><Link to="spanish">Spanish</Link></li>
+                                </ul>
+                                 </li>
                             <li>
                                 <Link to="staff">Staff</Link>
                             </li>
