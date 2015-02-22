@@ -14,13 +14,10 @@ module.exports = React.createClass({
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand topnav" href="#">Park Victoria Baptist Church</a>
+                        <Link className="navbar-brand topnav" to="/">Park Victoria Baptist Church</Link>
                     </div>
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right">
-                            <li>
-                                <Link to="visit">Visit</Link>
-                            </li>
                             <li>
                                 <Link to="about">About</Link>
                             </li>
