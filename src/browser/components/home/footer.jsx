@@ -25,7 +25,7 @@ module.exports = React.createClass({
                                     <ul>
                                         <li className="text-muted small"> (408) 263-9000</li>
                                         <li className="text-muted small"> info@parkvictoria.org </li>
-                                        <li className="text-muted small">(fb) (twitter)</li>
+                                        <li className="text-muted small"> (fb) (twitter)</li>
                                     </ul>
                                 </li>
                             </ul>
