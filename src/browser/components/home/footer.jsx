@@ -12,7 +12,7 @@ module.exports = React.createClass({
                                     <h3>Join Us</h3>
                                     <ul>
                                         <li className="text-muted small"> 9:00 AM Bible Study</li>
-                                        <li className="text-muted small"> 10:30 AM Main Worship ( English & Spanish )</li>
+                                        <li className="text-muted small"> 10:30 AM Main Worship (English & Spanish)</li>
                                         <li className="text-muted small"> 5:30 PM College & Young Adults Service</li>
                                     </ul>
                                 </li>
